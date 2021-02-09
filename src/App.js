@@ -11,6 +11,7 @@ import MyCarousal from "./components/my-carousal/mycarousal.components";
 import TitleMessage from "./components/title-message/title-message.components";
 import About from "./pages/about/about.component";
 import Skills from "./pages/skills/skills.component";
+import ProjectTimeLine from "./components/projects-timeline/projects-timeline.component";
 import ContactForm from "./pages/contact-form/contact-form.component";
 import FooterPanel from "./components/footer/footer.component";
 import { particlesOptions } from "./particlesOptions";
@@ -53,6 +54,13 @@ const App = () => {
           </Slide>
         </Container>
       </div>
+      {/* Projects section */}
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <ProjectTimeLine />
+        </Slide>
+      </Container>
       {/* contact section */}
       <div>
         <Container className="container-box rounded">
