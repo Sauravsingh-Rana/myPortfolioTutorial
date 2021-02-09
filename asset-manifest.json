@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/myPortfolio/static/css/main.72fcd3ac.chunk.css",
+    "main.js": "/myPortfolio/static/js/main.9383b407.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.9383b407.chunk.js.map",
+    "runtime-main.js": "/myPortfolio/static/js/runtime-main.b0886c16.js",
+    "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.b0886c16.js.map",
+    "static/js/2.f1761d10.chunk.js": "/myPortfolio/static/js/2.f1761d10.chunk.js",
+    "static/js/2.f1761d10.chunk.js.map": "/myPortfolio/static/js/2.f1761d10.chunk.js.map",
+    "index.html": "/myPortfolio/index.html",
+    "static/css/main.72fcd3ac.chunk.css.map": "/myPortfolio/static/css/main.72fcd3ac.chunk.css.map",
+    "static/js/2.f1761d10.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.f1761d10.chunk.js.LICENSE.txt",
+    "static/media/Profile.60c5f69e.webp": "/myPortfolio/static/media/Profile.60c5f69e.webp",
+    "static/media/amazon_challenge.4d7a9c80.webp": "/myPortfolio/static/media/amazon_challenge.4d7a9c80.webp",
+    "static/media/background.webp": "/myPortfolio/static/media/background.48c0b661.webp",
+    "static/media/c++.f228be35.svg": "/myPortfolio/static/media/c++.f228be35.svg",
+    "static/media/css3.8fba365c.svg": "/myPortfolio/static/media/css3.8fba365c.svg",
+    "static/media/django.0779fca2.svg": "/myPortfolio/static/media/django.0779fca2.svg",
+    "static/media/express.75fff9be.svg": "/myPortfolio/static/media/express.75fff9be.svg",
+    "static/media/firebase.aa8cb379.svg": "/myPortfolio/static/media/firebase.aa8cb379.svg",
+    "static/media/git-icon.c60b7e5a.svg": "/myPortfolio/static/media/git-icon.c60b7e5a.svg",
+    "static/media/github.740db6be.svg": "/myPortfolio/static/media/github.740db6be.svg",
+    "static/media/html-5.821ba738.svg": "/myPortfolio/static/media/html-5.821ba738.svg",
+    "static/media/javascript.ba40d6a9.svg": "/myPortfolio/static/media/javascript.ba40d6a9.svg",
+    "static/media/logossr.2b973bef.webp": "/myPortfolio/static/media/logossr.2b973bef.webp",
+    "static/media/material-ui-1.fd510ed8.svg": "/myPortfolio/static/media/material-ui-1.fd510ed8.svg",
+    "static/media/mongodb.d89a6eeb.svg": "/myPortfolio/static/media/mongodb.d89a6eeb.svg",
+    "static/media/nodejs.52cbf9a8.svg": "/myPortfolio/static/media/nodejs.52cbf9a8.svg",
+    "static/media/python.e6d7dc73.svg": "/myPortfolio/static/media/python.e6d7dc73.svg",
+    "static/media/react-bootstrap.534ba574.svg": "/myPortfolio/static/media/react-bootstrap.534ba574.svg",
+    "static/media/react.add74742.svg": "/myPortfolio/static/media/react.add74742.svg",
+    "static/media/slide1.14619b04.webp": "/myPortfolio/static/media/slide1.14619b04.webp",
+    "static/media/slide2.d58e7971.webp": "/myPortfolio/static/media/slide2.d58e7971.webp",
+    "static/media/slide3.ea32b5ab.webp": "/myPortfolio/static/media/slide3.ea32b5ab.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b0886c16.js",
+    "static/js/2.f1761d10.chunk.js",
+    "static/css/main.72fcd3ac.chunk.css",
+    "static/js/main.9383b407.chunk.js"
+  ]
+}
