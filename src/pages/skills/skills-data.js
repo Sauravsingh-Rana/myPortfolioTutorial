@@ -1,9 +1,7 @@
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
-import L_BOOTSTRAP from "../../assets/img/skills/bootstrap-4.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
-import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
 import L_DJANGO from "../../assets/img/skills/django.svg";
@@ -13,6 +11,8 @@ import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_C_Plus_Plus from "../../assets/img/skills/c++.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
+import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
+import L_FIREBASE from "../../assets/img/skills/firebase.svg";
 
 export const skills = {
   frontend: [
@@ -35,12 +35,7 @@ export const skills = {
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
     },
-    {
-      link: "https://getbootstrap.com/",
-      imgAltText: "Bootstrap",
-      imgSrc: L_BOOTSTRAP,
-      skillName: "Bootstrap",
-    },
+
     {
       link: "https://reactjs.org/",
       imgAltText: "React JS",
@@ -54,10 +49,10 @@ export const skills = {
       skillName: "React Bootstrap",
     },
     {
-      link: "https://styled-components.com/",
-      imgAltText: "styled-components",
-      imgSrc: L_STYLED_COMPONENTS,
-      skillName: "styled-components",
+      link: "https://material-ui.com/",
+      imgAltText: "Material-UI",
+      imgSrc: L_MATERIALUI,
+      skillName: "Material-UI",
     },
   ],
   backend: [
@@ -87,6 +82,20 @@ export const skills = {
       imgSrc: L_GITHUB_PAGES,
       skillName: "GitHub Pages",
     },
+    {
+      link: "https://firebase.google.com/",
+      imgAltText: "Firebase",
+      imgSrc: L_FIREBASE,
+      skillName: "Firebase",
+    },
+  ],
+  versionControl: [
+    {
+      link: "https://git-scm.com/",
+      imgAltText: "GIT",
+      imgSrc: L_GIT,
+      skillName: "GIT",
+    },
   ],
   programmingLanguages: [
     {
@@ -114,14 +123,6 @@ export const skills = {
       imgAltText: "MongoDB",
       imgSrc: L_MONGODB,
       skillName: "MongoDB",
-    },
-  ],
-  versionControl: [
-    {
-      link: "https://git-scm.com/",
-      imgAltText: "GIT",
-      imgSrc: L_GIT,
-      skillName: "GIT",
     },
   ],
 };

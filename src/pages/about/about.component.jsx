@@ -2,12 +2,10 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import "./about.style.css";
+import Profile from "../../assets/img/profile/Profile.webp";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
-
-import Profile from "../../assets/img/profile/Profile.webp";
-
-import "./about.style.css";
 
 const About = () => {
   return (
@@ -50,8 +48,6 @@ const About = () => {
                 technologies, what problems are they solving and How can I use
                 them to build better and scalable products.
                 <br /> <br />
-              </Row>
-              <Row>
                 {/* buttons */}
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>

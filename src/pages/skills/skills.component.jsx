@@ -17,7 +17,7 @@ const Skills = () => {
       <CardDeck>
         <Row className="d-flex justify-content-around">
           {/* Frontend */}
-          <Col md={3}>
+          <Col md={4}>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">
@@ -107,6 +107,34 @@ const Skills = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
+            {/* Version Control */}
+
+            <Card className="focus mt-2 mb-2">
+              <Card.Body>
+                <Card.Title className="text-center  card-title">
+                  Version Control
+                </Card.Title>
+                <hr />
+                <Card.Text className="card-text d-flex justify-content-start flex-column">
+                  <span className="p-2">
+                    <a
+                      className="text-dark text-decoration-none"
+                      href={skills.versionControl[0].link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Image
+                        src={skills.versionControl[0].imgSrc}
+                        alt={skills.versionControl[0].imgAltText}
+                        rounded
+                        className="image-style m-1"
+                      ></Image>{" "}
+                      {skills.versionControl[0].skillName}
+                    </a>
+                  </span>
+                </Card.Text>
+              </Card.Body>
+            </Card>
           </Col>
           {/* Programming Languages */}
           <Col md={4}>
@@ -166,34 +194,6 @@ const Skills = () => {
                       </a>
                     </span>
                   ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            {/* Version Control */}
-
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">
-                  Version Control
-                </Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  <span className="p-2">
-                    <a
-                      className="text-dark text-decoration-none"
-                      href={skills.versionControl[0].link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src={skills.versionControl[0].imgSrc}
-                        alt={skills.versionControl[0].imgAltText}
-                        rounded
-                        className="image-style m-1"
-                      ></Image>{" "}
-                      {skills.versionControl[0].skillName}
-                    </a>
-                  </span>
                 </Card.Text>
               </Card.Body>
             </Card>
