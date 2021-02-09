@@ -20,7 +20,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className="App" style={{ position: "relative" }}>
+    <div style={{ position: "relative" }}>
       <MyNavbar />
       <MyCarousal />
       <TitleMessage />
@@ -32,7 +32,7 @@ const App = () => {
       <div>
         <Parallax
           blur={{ min: -30, max: 30 }}
-          bgImage={require("./assets/img/parallex/download.jpg")}
+          bgImage={require("././assets/img/background/background.webp")}
           bgImageAlt=""
           strength={-200}
         >
