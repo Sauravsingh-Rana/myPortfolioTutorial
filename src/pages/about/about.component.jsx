@@ -30,21 +30,19 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
                 {/* description */}
-                Hi there! I am <strong> &nbsp;Sauravsingh Rana </strong>
+                Hi there! Myself <strong> &nbsp;Sauravsingh Rana ,</strong>
                 <br />A passionate programmer and data enthusiast, born and
-                brought up in India. I am a Full Stack Web Developer with
-                React.js, Redux, Express.js, Node.js, and PostgreSQL as my tech
-                stack.
+                brought up in India.
                 <br />
-                In 2019, I successfully completed my Engineering with
-                specialization in 'Electronics and Telecommunication'.
+                In 2021, I will be successfully completing my Engineering with
+                specialization in 'Electronics and Communication'.
                 <br />
-                Working with the clients, my goal is always driven towards
+                Working with my fellow mates, my goal is always driven towards
                 providing amazing experience with the best level of quality and
-                service to them.
+                if possible I'll try my best to be a helping hand.
                 <br />
-                Along with that, I also help people on their journey of becoming
-                a professional programmer. I love learning about new
+                Along with that, I also contribute in open source communities to
+                help and explore new diversities. I love learning about new
                 technologies, what problems are they solving and How can I use
                 them to build better and scalable products.
                 <br /> <br />
@@ -59,7 +57,7 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href="https://drive.google.com/file/d/1Snbq3x4Itk_ZN4c8J96aNdp4SunXR08Y/view?usp=sharing"
+                      href="https://drive.google.com/file/d/16Bj4uMFBKEXAcI08jDpegBsg6ZlXQix9/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

@@ -3,9 +3,9 @@ import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
-import L_EXPRESS from "../../assets/img/skills/express.svg";
+// import L_EXPRESS from "../../assets/img/skills/express.svg";
 import L_DJANGO from "../../assets/img/skills/django.svg";
-import L_MONGODB from "../../assets/img/skills/mongodb.svg";
+// import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
@@ -68,12 +68,12 @@ export const skills = {
       imgSrc: L_DJANGO,
       skillName: "Django",
     },
-    {
-      link: "https://expressjs.com/",
-      imgAltText: "Express",
-      imgSrc: L_EXPRESS,
-      skillName: "Express",
-    },
+    // {
+    //   link: "https://expressjs.com/",
+    //   imgAltText: "Express",
+    //   imgSrc: L_EXPRESS,
+    //   skillName: "Express",
+    // },
   ],
   hostingPlatforms: [
     {
@@ -89,14 +89,7 @@ export const skills = {
       skillName: "Firebase",
     },
   ],
-  versionControl: [
-    {
-      link: "https://git-scm.com/",
-      imgAltText: "GIT",
-      imgSrc: L_GIT,
-      skillName: "GIT",
-    },
-  ],
+
   programmingLanguages: [
     {
       link: "https://www.cplusplus.com/",
@@ -110,19 +103,28 @@ export const skills = {
       imgSrc: L_PYTHON,
       skillName: "Python",
     },
+    // {
+    //   link: "https://www.javascript.com/",
+    //   imgAltText: "JavaScript",
+    //   imgSrc: L_JAVASCRIPT,
+    //   skillName: "JavaScript",
+    // },
+  ],
+  versionControl: [
     {
-      link: "https://www.javascript.com/",
-      imgAltText: "JavaScript",
-      imgSrc: L_JAVASCRIPT,
-      skillName: "JavaScript",
+      link: "https://git-scm.com/",
+      imgAltText: "GIT",
+      imgSrc: L_GIT,
+      skillName: "GIT",
     },
   ],
-  databases: [
-    {
-      link: "https://www.mongodb.com/",
-      imgAltText: "MongoDB",
-      imgSrc: L_MONGODB,
-      skillName: "MongoDB",
-    },
-  ],
+
+  // databases: [
+  //   {
+  //     link: "https://www.mongodb.com/",
+  //     imgAltText: "MongoDB",
+  //     imgSrc: L_MONGODB,
+  //     skillName: "MongoDB",
+  //   },
+  // ],
 };
